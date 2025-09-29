@@ -65,12 +65,15 @@ backdrop-filter: blur(40px);
     left: 50%;
     transform: translateX(-50px);
 }
+
 #hrs::after{
     content: 'HOURS';
 }
+
 #min::after{
     content: 'MIN';
 }
+
 #sec::after{
     content: 'SEC';
 }

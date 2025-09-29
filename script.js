@@ -6,7 +6,7 @@ let sec = document.getElementById("sec")
 
 setInterval(() => {
     let currentTime = new Date(),
-//when i tried to declare my hours the entire clock became non functional despite trouble shooting this problem
+//when i tried to declare my hours the entire clock became non functional despite trouble shooting 
 hrsinnerHTML = currentTime.getHours();
 min.innerHTML = currentTime.getMinutes(); 
 sec.innerHTML = currentTime.getSeconds();
